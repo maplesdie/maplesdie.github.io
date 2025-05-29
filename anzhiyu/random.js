@@ -1,4 +1,4 @@
-var posts=["posts/2025-2-15.html","posts/hello-world.html","posts/HEXO后台管理系统.html"];function toRandomPost(){
+var posts=["posts/HEXO后台管理系统.html","posts/hello-world.html","posts/2025-2-15.html"];function toRandomPost(){
     window.location.href='/'+posts[Math.floor(Math.random() * posts.length)];
   };var friend_link_list=[];
     var refreshNum = 1;
