@@ -1,5 +1,5 @@
-var posts=["posts/undefined.html","posts/undefined.html","posts/undefined.html"];function toRandomPost(){
-    pjax.loadUrl('/'+posts[Math.floor(Math.random() * posts.length)]);
+var posts=["posts/2025-2-15.html","posts/hello-world.html","posts/HEXO后台管理系统.html"];function toRandomPost(){
+    window.location.href='/'+posts[Math.floor(Math.random() * posts.length)];
   };var friend_link_list=[];
     var refreshNum = 1;
     function friendChainRandomTransmission() {
