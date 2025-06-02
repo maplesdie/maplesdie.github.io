@@ -24740,8 +24740,8 @@ div#swiper_container:hover {
   z-index: 1;
   transition: 0.3s;
   cursor: pointer;
-  backdrop-filter: saturate(180%) blur(20px);
-  -webkit-backdrop-filter: blur(20px);
+  backdrop-filter: none;
+  -webkit-backdrop-filter: none;
   transform: translateZ(0);
   height: 40px;
   width: 125px;
@@ -25042,6 +25042,7 @@ body[data-type="room"] #page .page-title {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  -webkit-user-select: none;
   user-select: none;
   transform-style: preserve-3d;
   -webkit-tap-highlight-color: transparent;
@@ -25095,7 +25096,7 @@ body[data-type="room"] #page .page-title {
   height: 14vw;
   border-radius: 50%;
   background-image: radial-gradient(#1b182a, transparent);
-  filter: blur(1vw);
+  filter: none !important;
 }
 
 .h-light:nth-of-type(2) {
@@ -25107,7 +25108,7 @@ body[data-type="room"] #page .page-title {
   transform: rotateZ(-50deg);
   background-image: radial-gradient(rgba(81, 137, 251, 0.45) 50%, rgba(40, 125, 210, 0.45), transparent);
   box-shadow: -1vw -1vw 2vw 1vw rgba(131, 171, 252, 0.1);
-  filter: blur(1vw);
+  filter: none !important;
 }
 
 .h-light:nth-of-type(3) {
@@ -25118,7 +25119,7 @@ body[data-type="room"] #page .page-title {
   border-radius: 50%;
   transform: rotateZ(-50deg);
   background-image: radial-gradient(rgba(81, 137, 251, 0.5) 50%, rgba(40, 125, 210, 0.5), transparent);
-  filter: blur(2vw);
+  filter: none !important;
 }
 
 .h-light:nth-of-type(3)::before,
@@ -25131,7 +25132,7 @@ body[data-type="room"] #page .page-title {
   background-image: linear-gradient(to bottom, rgba(40, 125, 210, 0.1), rgba(81, 137, 251, 0.1), transparent);
   border-top-left-radius: 10vw;
   border-top-right-radius: 10vw;
-  filter: blur(1.5vw);
+  filter: none !important;
 }
 
 .h-light:nth-of-type(3)::before {
@@ -25162,7 +25163,7 @@ body[data-type="room"] #page .page-title {
     transparent,
     rgba(0, 0, 0, 0.15)
   );
-  filter: blur(0.25vw);
+  filter: none !important;
 }
 
 .h-light:nth-of-type(6) {
@@ -25173,7 +25174,7 @@ body[data-type="room"] #page .page-title {
   transform-origin: bottom left;
   transform: skewY(49deg);
   background-image: linear-gradient(to left, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.7));
-  filter: blur(0.35vw);
+  filter: none !important;
 }
 
 /***************/
@@ -25261,7 +25262,7 @@ body[data-type="room"] #page .page-title {
   height: 100%;
   width: 6vw;
   background-image: linear-gradient(to bottom, transparent 20%, rgba(40, 125, 210, 0.75), rgba(81, 137, 251, 0.25) 80%);
-  filter: blur(0.1vw);
+  filter: none !important;
 }
 
 .alt__top .light:nth-of-type(3) {
@@ -25273,7 +25274,7 @@ body[data-type="room"] #page .page-title {
   border-radius: 50%;
   transform: rotateZ(42deg);
   background-image: radial-gradient(rgba(131, 171, 252, 0.75) 50%, rgba(32, 99, 167, 0.75));
-  filter: blur(0.55vw);
+  filter: none !important;
 }
 
 .alt__top .light:nth-of-type(4) {
@@ -25285,7 +25286,7 @@ body[data-type="room"] #page .page-title {
   border-radius: 50%;
   transform: rotateZ(40deg);
   background-image: radial-gradient(rgba(131, 171, 252, 0.75) 50%, rgba(32, 99, 167, 0.75));
-  filter: blur(0.55vw);
+  filter: none !important;
 }
 
 .alt__top .light:nth-of-type(5) {
@@ -25297,7 +25298,7 @@ body[data-type="room"] #page .page-title {
   border-radius: 50%;
   transform: rotateZ(40deg);
   background-image: radial-gradient(rgba(141, 178, 252, 0.75) 50%, rgba(32, 99, 167, 0.75));
-  filter: blur(0.75vw);
+  filter: none !important;
 }
 
 .alt__top .light:nth-of-type(6) {
@@ -25309,7 +25310,7 @@ body[data-type="room"] #page .page-title {
   border-radius: 50%;
   transform: rotateZ(40deg);
   background-image: radial-gradient(rgba(141, 178, 252, 0.75) 50%, rgba(32, 99, 167, 0.75));
-  filter: blur(0.35vw);
+  filter: none !important;
 }
 
 .alt__top .light:nth-of-type(7) {
@@ -25346,7 +25347,7 @@ body[data-type="room"] #page .page-title {
   border-radius: 50%;
   transform: rotateZ(40deg);
   background-image: radial-gradient(rgba(255, 255, 255, 0.1) 50%, rgba(128, 121, 174, 0.1));
-  filter: blur(0.8vw);
+  filter: none !important;
 }
 
 .alt__bottom {
@@ -25976,7 +25977,7 @@ body[data-type="room"] #page .page-title {
   width: 120%;
   height: 120%;
   background-image: linear-gradient(to left, rgba(7, 23, 39, 0.75), rgba(0, 0, 0, 0.75));
-  filter: blur(0.5vw);
+  filter: none !important;
 }
 
 .bocina-r {
@@ -26011,7 +26012,7 @@ body[data-type="room"] #page .page-title {
   width: 120%;
   height: 120%;
   background-image: linear-gradient(to right, rgba(7, 23, 39, 0.75), rgba(0, 0, 0, 0.75));
-  filter: blur(0.5vw);
+  filter: none !important;
 }
 
 .repisa-t,
@@ -26216,7 +26217,7 @@ body[data-type="room"] #page .page-title {
   width: 13vw;
   height: 7vw;
   background-image: radial-gradient(rgba(36, 112, 188, 0.95), rgba(56, 121, 250, 0.95));
-  filter: blur(1.25vw);
+  filter: none !important;
   animation: luz-tv 0.25s infinite alternate;
 }
 
@@ -26294,7 +26295,7 @@ body[data-type="room"] #page .page-title {
   height: 4vw;
   border-radius: 50%;
   background-image: radial-gradient(rgba(106, 154, 251, 0.7) 50%, rgba(32, 99, 167, 0.6), transparent);
-  filter: blur(1.25vw);
+  filter: none !important;
 }
 
 .librero__right {
@@ -26579,7 +26580,7 @@ body[data-type="room"] #page .page-title {
   width: 400%;
   height: 100%;
   background-color: rgba(11, 12, 31, 0.75);
-  filter: blur(0.15vw);
+  filter: none !important;
 }
 
 .foto:nth-of-type(1) {
@@ -26701,7 +26702,7 @@ body[data-type="room"] #page .page-title {
   width: 150%;
   height: 120%;
   background-color: rgba(31, 33, 88, 0.5);
-  filter: blur(0.15vw);
+  filter: none !important;
 }
 
 .caja:nth-of-type(1) {
@@ -26861,7 +26862,7 @@ body[data-type="room"] #page .page-title {
   width: 100%;
   height: 200%;
   background-color: rgba(0, 0, 0, 0.65);
-  filter: blur(0.5vw);
+  filter: none !important;
 }
 
 .puerta {
@@ -27189,7 +27190,7 @@ body[data-type="room"] #page .page-title {
   width: 90%;
   height: 25%;
   background-image: linear-gradient(to bottom, rgba(4, 5, 13, 0.75), rgba(4, 5, 13, 0.95));
-  filter: blur(0.75vw);
+  filter: none !important;
 }
 
 .muro__left {
@@ -27225,7 +27226,7 @@ body[data-type="room"] #page .page-title {
   background-image: linear-gradient(to left, #0b0c1f, transparent 50%);
   transform-origin: right bottom;
   transform: skewY(-20deg);
-  filter: blur(0.25vw);
+  filter: none !important;
 }
 
 .sillon-c {
@@ -27245,7 +27246,7 @@ body[data-type="room"] #page .page-title {
   width: 120%;
   height: 120%;
   background-color: rgba(11, 12, 31, 0.85);
-  filter: blur(0.75vw);
+  filter: none !important;
 }
 
 .sillon-b {
@@ -27540,7 +27541,7 @@ body[data-type="room"] #page .page-title {
   height: 100%;
   border-radius: 10%;
   background-color: rgba(11, 12, 31, 0.95);
-  filter: blur(1vw);
+  filter: none !important;
   transform: translateZ(0);
 }
 
@@ -27631,7 +27632,7 @@ body[data-type="room"] #page .page-title {
   width: 50%;
   height: 50%;
   background-image: linear-gradient(45deg, rgba(81, 137, 251, 0.5), rgba(251, 250, 254, 0.125) 50%, transparent 55%);
-  filter: blur(0.5vw);
+  filter: none !important;
 }
 
 .mesa__top::after {
@@ -27644,7 +27645,7 @@ body[data-type="room"] #page .page-title {
   border-radius: 50%;
   background-color: rgba(40, 125, 210, 0.079);
   transform: rotateZ(-40deg);
-  filter: blur(0.75vw);
+  filter: none !important;
 }
 
 .mesa__bottom {
@@ -27733,7 +27734,7 @@ body[data-type="room"] #page .page-title {
   border-radius: 10%;
   transform: translateZ(-0.1vw);
   background-color: rgba(0, 0, 0, 0.75);
-  filter: blur(0.35vw);
+  filter: none !important;
 }
 
 .mesa-p:nth-of-type(1) {
