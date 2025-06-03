@@ -387,3 +387,13 @@ body::before {
     background-size: cover !important;
     background-position: center !important;
 }
+
+.download-link {
+  display: inline-block;
+  padding: 8px 15px;
+  background: #3498db;
+  color: white !important;
+  border-radius: 4px;
+  text-decoration: none;
+  margin: 5px 0;
+}
