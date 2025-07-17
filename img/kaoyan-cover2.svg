@@ -1,0 +1,14 @@
+<svg width="400" height="200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ff6b6b;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ffa726;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="400" height="200" fill="url(#grad2)"/>
+  <text x="200" y="80" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="white" text-anchor="middle">数学复习</text>
+  <text x="200" y="110" font-family="Arial, sans-serif" font-size="16" fill="white" text-anchor="middle">高等数学基础</text>
+  <circle cx="80" cy="60" r="25" fill="rgba(255,255,255,0.2)"/>
+  <circle cx="320" cy="140" r="35" fill="rgba(255,255,255,0.1)"/>
+  <text x="200" y="140" font-family="Arial, sans-serif" font-size="20" fill="rgba(255,255,255,0.4)" text-anchor="middle">∫ f(x)dx</text>
+</svg>
